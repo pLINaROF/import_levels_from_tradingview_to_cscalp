@@ -14,6 +14,7 @@
 * **user_agent** - раздел Request Headers - user_agent
 * **chart_id** - раздел Query String Parameters - chart_id
 * **jwt** - раздел Query String Parameters - jwt
+Картинка для наглядности https://prnt.sc/11mzftx
 
 Вставляем собранные данные в tradingview_levels.ini, сохраняем
 
