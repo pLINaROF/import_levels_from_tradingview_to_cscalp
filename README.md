@@ -52,11 +52,12 @@
 
 # Donate
 Если эта программа вам помогла, не стесняйтесь пожертвовать:
-* USDT: 
-* BTC: 
-* ETH: 
-* LTC: 
-* BCH: 
-* DOGE: 
+* USDT TRC20: TYvX3gNRghPo6prxVxB9G1pcuEdvCtNUM9 
+* BTC: 1A4cCqEBD7U6YLtMFsmqJqZLnKS3g9bZGy
+* ETH ERC20: 0xcc559ad9e92621555310d8f5e923ee7a3d914471
+* BNB BEP20 (BSC): 0xcc559ad9e92621555310d8f5e923ee7a3d914471
+* LTC: LU5rNY1uJEvHpUoTJ8ma6FiG6aMxgxBrim
+* BCH: 1A4cCqEBD7U6YLtMFsmqJqZLnKS3g9bZGy
+* DOGE: D5wo6uqCxBgtXe4xKYQAvS9jYdorfnmVkD
 
 
