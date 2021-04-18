@@ -35,6 +35,8 @@
 * **chart_id** - раздел Query String Parameters - chart_id
 * **jwt** - раздел Query String Parameters - jwt
 
+Значения копируем полностью без пробелов в конце и начале.
+
 Картинка для наглядности https://prnt.sc/11mzftx
 
 Вставляем собранные данные в tradingview_levels.ini, сохраняем.
