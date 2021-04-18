@@ -22,7 +22,19 @@
 Параметры import_spot_levels, import_futures_levels отвечают за парсинг уровней для спота и фьючерса соответсвенно (True - парсим, False - не парсим (я использую только import_futures_levels так быстрее)).
 
 
-# Заполнение tradingview_levels.ini
-Для работы программы нужно скомпилировать код 
-http://toolmark.ru/kak-skompilirovat-python-prilozhenie/
-https://vc.ru/newtechaudit/122327-kompiliruem-kod-python-v-fayl-exe
+# Компиляция
+Для работы программы нужно скомпилировать код.
+Процесс описан здесь:
+* http://toolmark.ru/kak-skompilirovat-python-prilozhenie/
+* https://vc.ru/newtechaudit/122327-kompiliruem-kod-python-v-fayl-exe
+
+Если вы не хотите компилировать код или не знаете как это сделать в репозитории есть уже упакованные в exe файлы. Их работоспособность не гарантирована. Файлы tradingview_levels.exe и levels_cleaner.exe нужно будет добавить в исключения антивируса (даже если вы компилировали их самостоятельно).
+
+# Подготовка
+Перед запуском программы нужно положить файлы tradingview_levels.exe, levels_cleaner.exe и tradingview_levels.ini в папку с настройками стаканов Cscalp (путь:  C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs, WINDOWS_USER_NAME нужно заменить на название пользователя windows (можно посмотреть в настройках или в папке C:\Users)).
+
+Для удобства запуска можно создать ярлыки на рабочем столе (ПКМ - Отправить - Рабочий стол (создать ярлык)).
+
+
+
+
