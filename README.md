@@ -17,7 +17,12 @@
 
 Картинка для наглядности https://prnt.sc/11mzftx
 
-Вставляем собранные данные в tradingview_levels.ini, сохраняем
+Вставляем собранные данные в tradingview_levels.ini, сохраняем.
 
 Параметры import_spot_levels, import_futures_levels отвечают за парсинг уровней для спота и фьючерса соответсвенно (True - парсим, False - не парсим (я использую только import_futures_levels так быстрее)).
 
+
+# Заполнение tradingview_levels.ini
+Для работы программы нужно скомпилировать код 
+http://toolmark.ru/kak-skompilirovat-python-prilozhenie/
+https://vc.ru/newtechaudit/122327-kompiliruem-kod-python-v-fayl-exe
