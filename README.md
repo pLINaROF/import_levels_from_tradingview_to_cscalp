@@ -8,7 +8,7 @@
 
 
 # Заполнение tradingview_levels.ini
-Для заполнения tradingview_levels.ini нужно авторизоваться на tradingview.com, открыть любой график, открыть инструменты разработчика (Ctrl + Shift + J или F12), перейти во вкладку Network, в списке котировок нажать на любую другую монету. В Network появится запрос sources?chart_id. Нажимаем на него. Начинаем собирать данные для tradingview_levels.ini.
+Для заполнения tradingview_levels.ini нужно авторизоваться на tradingview.com, открыть любой график, открыть инструменты разработчика (Ctrl + Shift + J или F12), перейти во вкладку Network, в списке котировок нажать на монету отличную от открытой. В Network появится запрос sources?chart_id. Нажимаем на него. Начинаем собирать данные для tradingview_levels.ini.
 
 chart - раздел General - Request URL - нужна часть между layout и sources (без слешей)
 cookie - раздел Request Headers - cookie
