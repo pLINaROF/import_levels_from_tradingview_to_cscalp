@@ -3,7 +3,7 @@ import os
 import configparser
 
 config = configparser.ConfigParser()
-config.read("settings.ini")
+config.read("tradingview_levels.ini")
 file_name_pref = config["def"]["file_name_pref"]
 
 
