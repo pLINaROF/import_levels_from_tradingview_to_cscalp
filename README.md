@@ -21,7 +21,7 @@
 
 # Требования:
 * Доступ в интернет
-* Python 3.8
+* Python 3.8 (при установке поставить галочку "Add Python to environment variables")
 * Библиотека requests
 * Созданный аккаунт в TradingView
 * Установленный Cscalp
