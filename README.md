@@ -46,13 +46,6 @@
 
 Параметры import_spot_levels, import_futures_levels отвечают за парсинг уровней для спота и фьючерса соответственно (True - парсим, False - не парсим (я использую только import_futures_levels, так быстрее)).
 
-# Способ запуска без компиляции
-Запускаем файл setup.bat (установится библиотека requests)
-Перемещаем файлы tradingview_levels.ini, tradingview_levels_run.bat, tradingview_levels.py, levels_cleaner_run.bat, levels_cleaner.py в в папку с настройками стаканов Cscalp (путь:  C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs, WINDOWS_USER_NAME нужно заменить на название пользователя windows (можно посмотреть в настройках или в папке C:\Users)).
-
-Для удобства запуска можно создать ярлыки на рабочем столе для файлов (ПКМ - Отправить - Рабочий стол (создать ярлык)).
-
-
 # Компиляция
 Для работы программы нужно скомпилировать код.
 Процесс описан здесь:
@@ -64,6 +57,12 @@
 Их работоспособность не гарантирована.
 
 Файлы tradingview_levels.exe и levels_cleaner.exe нужно будет добавить в исключения антивируса (даже если вы компилировали их самостоятельно).
+
+# Способ запуска без компиляции
+Запускаем файл setup.bat (установится библиотека requests)
+Перемещаем файлы tradingview_levels.ini, tradingview_levels_run.bat, tradingview_levels.py, levels_cleaner_run.bat, levels_cleaner.py в в папку с настройками стаканов Cscalp (путь:  C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs, WINDOWS_USER_NAME нужно заменить на название пользователя windows (можно посмотреть в настройках или в папке C:\Users)).
+
+Для удобства запуска можно создать ярлыки на рабочем столе для файлов (ПКМ - Отправить - Рабочий стол (создать ярлык)).
 
 # Подготовка
 Перед запуском программы нужно положить файлы tradingview_levels.exe, levels_cleaner.exe и tradingview_levels.ini в папку с настройками стаканов Cscalp (путь:  C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs, WINDOWS_USER_NAME нужно заменить на название пользователя windows (можно посмотреть в настройках или в папке C:\Users)).
