@@ -53,14 +53,17 @@
 * https://vc.ru/newtechaudit/122327-kompiliruem-kod-python-v-fayl-exe
 
 Если вы не хотите компилировать код или не знаете как это сделать в репозитории есть уже упакованные в exe файлы.
-
 Их работоспособность не гарантирована.
+
+**Видео с настройкой (exe):** https://www.youtube.com/watch?v=Be2uG4pmX4A
 
 Файлы tradingview_levels.exe и levels_cleaner.exe нужно будет добавить в исключения антивируса (даже если вы компилировали их самостоятельно).
 
 # Способ запуска без компиляции
 Запускаем файл setup.bat (установится библиотека requests)
 Перемещаем файлы tradingview_levels.ini, tradingview_levels_run.bat, tradingview_levels.py, levels_cleaner_run.bat, levels_cleaner.py в в папку с настройками стаканов Cscalp (путь:  C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs, WINDOWS_USER_NAME нужно заменить на название пользователя windows (можно посмотреть в настройках или в папке C:\Users)).
+
+**Видео с настройкой (py + bat):** https://www.youtube.com/watch?v=Ayg9JFrFAT4
 
 Для удобства запуска можно создать ярлыки на рабочем столе для файлов (ПКМ - Отправить - Рабочий стол (создать ярлык)).
 
