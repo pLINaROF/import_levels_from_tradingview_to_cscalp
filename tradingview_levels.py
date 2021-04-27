@@ -39,6 +39,7 @@ def get_tradingview_levels(exchange_name, symbol, cookie, jwt, chart_id):
     if 'errorMsg' in response:
         print(response)
         input('Устраните ошибки и перезапустите')
+        exit()
 
     try:
         for source in response['payload']['sources']:
