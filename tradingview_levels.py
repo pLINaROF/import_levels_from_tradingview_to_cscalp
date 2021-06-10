@@ -107,7 +107,3 @@ for file in os.listdir():
         pass
 
 input('Готово, можно запустить cscalp')
-
-# C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer
-# C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs
-# pyinstaller tradingview_levels.py --onefile
