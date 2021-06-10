@@ -23,7 +23,3 @@ for file in os.listdir():
             pass
 
 input('Чистка уровней завершена')
-
-# C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer
-# C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs
-# pyinstaller levels_cleaner.py --onefile
