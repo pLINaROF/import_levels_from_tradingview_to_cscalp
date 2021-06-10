@@ -51,6 +51,10 @@
 Запускаем файл setup.bat (установится библиотека requests).
 Перемещаем файлы tradingview_levels.ini, tradingview_levels_run.bat, tradingview_levels.py, levels_cleaner_run.bat, levels_cleaner.py в в папку с настройками стаканов Cscalp.
 
+**Видео с настройкой (py + bat):** https://www.youtube.com/watch?v=Ayg9JFrFAT4
+
+Для удобства запуска можно создать ярлыки на рабочем столе для файлов (ПКМ - Отправить - Рабочий стол (создать ярлык)).
+
 # Компиляция
 Для работы программы нужно скомпилировать код.
 Процесс описан здесь:
@@ -65,15 +69,9 @@
 Файлы tradingview_levels.exe и levels_cleaner.exe нужно будет добавить в исключения антивируса (даже если вы компилировали их самостоятельно).
 
 
-
-
 # Папки с настройками стаканов:
 * **Для версии Cscalp ниже v1.0.106:** C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs (WINDOWS_USER_NAME нужно заменить на название пользователя windows (можно посмотреть в настройках или в папке C:\Users).
 * **Для Cscalp v1.0.106 и выше:** C:\Program Files (x86)\FSR Launcher\SubApps\CScalp\Data\MVS
-
-**Видео с настройкой (py + bat):** https://www.youtube.com/watch?v=Ayg9JFrFAT4
-
-Для удобства запуска можно создать ярлыки на рабочем столе для файлов (ПКМ - Отправить - Рабочий стол (создать ярлык)).
 
 # Подготовка
 Перед запуском программы нужно положить файлы tradingview_levels.exe, levels_cleaner.exe и tradingview_levels.ini в папку с настройками стаканов Cscalp.
