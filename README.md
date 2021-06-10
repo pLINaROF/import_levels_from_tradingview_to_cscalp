@@ -48,8 +48,8 @@
 Параметры import_spot_levels, import_futures_levels отвечают за парсинг уровней для спота и фьючерса соответственно (True - парсим, False - не парсим (я использую только import_futures_levels, так быстрее)).
 
 # Способ запуска без компиляции
-Запускаем файл setup.bat (установится библиотека requests)
-Перемещаем файлы tradingview_levels.ini, tradingview_levels_run.bat, tradingview_levels.py, levels_cleaner_run.bat, levels_cleaner.py в в папку с настройками стаканов Cscalp (путь ниже):
+Запускаем файл setup.bat (установится библиотека requests).
+Перемещаем файлы tradingview_levels.ini, tradingview_levels_run.bat, tradingview_levels.py, levels_cleaner_run.bat, levels_cleaner.py в в папку с настройками стаканов Cscalp.
 
 # Компиляция
 Для работы программы нужно скомпилировать код.
@@ -64,6 +64,8 @@
 
 Файлы tradingview_levels.exe и levels_cleaner.exe нужно будет добавить в исключения антивируса (даже если вы компилировали их самостоятельно).
 
+
+**Папки с настройками стаканов:**
 * **Для версии Cscalp ниже v1.0.106:** C:\Users\WINDOWS_USER_NAME\AppData\Roaming\CScalp\Visualizer\mvs_cs (WINDOWS_USER_NAME нужно заменить на название пользователя windows (можно посмотреть в настройках или в папке C:\Users).
 * **Для Cscalp v1.0.106 и выше:** C:\Program Files (x86)\FSR Launcher\SubApps\CScalp\Data\MVS
 
