@@ -89,8 +89,8 @@ for symbol in get_binance_futures_list():
 
 
 print('Уровни получены')
-input('Убедитесь что cscalp отключен и нажмите Enter')
-print('Записываем уровни в настройки cscalp')
+input('Убедитесь что Cscalp отключен и нажмите Enter')
+print('Записываем уровни в настройки Cscalp')
 
 for file in os.listdir():
     # print(file)
@@ -106,4 +106,4 @@ for file in os.listdir():
     except:
         pass
 
-input('Готово, можно запустить cscalp')
+input('Готово, можно запустить Cscalp')
